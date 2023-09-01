@@ -1,8 +1,16 @@
+import { ListarComponent } from './../produtos/listar/listar.component';
+import { Routes } from '@angular/router';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { HomeComponent } from './home.component';
 
 describe('HomeComponent', () => {
+  {
+    const Routes: Routes = [
+      {path:'',component:HomeComponent},
+      {path: 'produtos', component:ListarComponent},
+    ]
+  }
   let component: HomeComponent;
   let fixture: ComponentFixture<HomeComponent>;
 

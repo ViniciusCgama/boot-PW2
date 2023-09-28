@@ -1,4 +1,4 @@
-import { ListarComponent } from './../produtos/listar/listar.component';
+import { ListarComponent } from '../produtos/listar/listar.component';
 import { Routes } from '@angular/router';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
